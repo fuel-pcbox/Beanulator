@@ -84,11 +84,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Database.dbml</DependentUpon>
-    </Compile>
     <Compile Include="FormBrowse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,9 +98,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Database.dbml.layout">
-      <DependentUpon>Database.dbml</DependentUpon>
-    </None>
     <EmbeddedResource Include="FormBrowse.resx">
       <DependentUpon>FormBrowse.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,11 +113,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Database.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>Database.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
